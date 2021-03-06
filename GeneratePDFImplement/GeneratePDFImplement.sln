@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneratePDFImplement", "GeneratePDFImplement\GeneratePDFImplement.csproj", "{E014DEBD-71CC-4C10-96CF-E35992189565}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForgetPassword", "ForgetPassword\ForgetPassword.csproj", "{30688632-D03E-4D4B-9E14-09A65B8009C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E014DEBD-71CC-4C10-96CF-E35992189565}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E014DEBD-71CC-4C10-96CF-E35992189565}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E014DEBD-71CC-4C10-96CF-E35992189565}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E014DEBD-71CC-4C10-96CF-E35992189565}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30688632-D03E-4D4B-9E14-09A65B8009C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30688632-D03E-4D4B-9E14-09A65B8009C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30688632-D03E-4D4B-9E14-09A65B8009C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30688632-D03E-4D4B-9E14-09A65B8009C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73A01DEB-1584-44C4-9F48-736122DE4FEC}
+	EndGlobalSection
+EndGlobal

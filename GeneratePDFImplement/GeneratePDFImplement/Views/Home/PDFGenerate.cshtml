@@ -1,0 +1,50 @@
+﻿@model List<GeneratePDFImplement.Models.User>
+
+<style>
+    thead {
+        background-color: black;
+        color: white
+    }
+
+    table {
+        border: 1px solid black;
+    }
+
+    td, th {
+        padding: 5px;
+        font-size: 14px;
+    }
+</style>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>PDFGenerate</title>
+</head>
+<body>
+    <table class="table table-bordered table-striped" border="1" style="border-color:black">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Name</td>
+                </tr>
+
+            }
+        </tbody>
+    </table>
+    <script>
+        //w3.hide(".container")
+        document.getElementsByClassName('navbar navbar-inverse navbar-fixed-top')[0].style.visibility = "hidden";
+    </script>
+</body>
+</html>
